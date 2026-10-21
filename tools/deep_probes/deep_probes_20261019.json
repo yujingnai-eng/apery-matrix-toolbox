@@ -1,0 +1,1158 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-19",
+  "status": "exploratory finite probes; no all-r proof",
+  "config": {
+    "max_s": 12,
+    "nmax": 8192,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13
+    ]
+  },
+  "probes": {
+    "P01_dyadic": {
+      "kind": "local aligned dyadic block law",
+      "max_s": 12,
+      "signed_hash": "4f264b836bcb3db192887a50e603bb4461abb9e72f689f0d9d9d4789407e5f0b",
+      "scales": {
+        "1": {
+          "blocks": 4096,
+          "signed_valuations": [
+            2
+          ],
+          "unsigned_valuations": [
+            1
+          ],
+          "units_mod8_first8": [
+            7,
+            1,
+            3,
+            5,
+            7,
+            1,
+            3,
+            5
+          ],
+          "signed_hash": "9661d73841378b75ac9142dedb8a32599e2a06283efa4eac3f9ff054b1637453"
+        },
+        "2": {
+          "blocks": 2048,
+          "signed_valuations": [
+            5
+          ],
+          "unsigned_valuations": [
+            2
+          ],
+          "units_mod8_first8": [
+            5,
+            3,
+            1,
+            7,
+            5,
+            3,
+            1,
+            7
+          ],
+          "signed_hash": "82651e4a17aaab31f0b7bf3b3d91e2f3cd6d8ffcf416c820fe2bcfd0e128e683"
+        },
+        "3": {
+          "blocks": 1024,
+          "signed_valuations": [
+            8
+          ],
+          "unsigned_valuations": [
+            3
+          ],
+          "units_mod8_first8": [
+            1,
+            7,
+            5,
+            3,
+            1,
+            7,
+            5,
+            3
+          ],
+          "signed_hash": "3df142570ae96998de3b5ec129560ecf258f1fe3c1fa20ab6a58e95fe497747e"
+        },
+        "4": {
+          "blocks": 512,
+          "signed_valuations": [
+            11
+          ],
+          "unsigned_valuations": [
+            4
+          ],
+          "units_mod8_first8": [
+            1,
+            7,
+            5,
+            3,
+            1,
+            7,
+            5,
+            3
+          ],
+          "signed_hash": "e60fedfece15bdde8b2b85caa9d64309b3ac135cd4995939dc747b17b55a8aa0"
+        },
+        "5": {
+          "blocks": 256,
+          "signed_valuations": [
+            14
+          ],
+          "unsigned_valuations": [
+            5
+          ],
+          "units_mod8_first8": [
+            1,
+            7,
+            5,
+            3,
+            1,
+            7,
+            5,
+            3
+          ],
+          "signed_hash": "e032dc406aedea8104a38429b8059bd6df2f354e097bd2c5a2ec6756f52c3cea"
+        },
+        "6": {
+          "blocks": 128,
+          "signed_valuations": [
+            17
+          ],
+          "unsigned_valuations": [
+            6
+          ],
+          "units_mod8_first8": [
+            1,
+            7,
+            5,
+            3,
+            1,
+            7,
+            5,
+            3
+          ],
+          "signed_hash": "60a760e8ba137413ff0dd3e062d92b5401a811f51c569cd0e8a6a83204bc430e"
+        },
+        "7": {
+          "blocks": 64,
+          "signed_valuations": [
+            20
+          ],
+          "unsigned_valuations": [
+            7
+          ],
+          "units_mod8_first8": [
+            1,
+            7,
+            5,
+            3,
+            1,
+            7,
+            5,
+            3
+          ],
+          "signed_hash": "57f704289bf0006977690e1d82720c20bcd2fd8c8be6e3a77f98e619bad5f799"
+        },
+        "8": {
+          "blocks": 32,
+          "signed_valuations": [
+            23
+          ],
+          "unsigned_valuations": [
+            8
+          ],
+          "units_mod8_first8": [
+            1,
+            7,
+            5,
+            3,
+            1,
+            7,
+            5,
+            3
+          ],
+          "signed_hash": "5e422f067f31d2944654a3ea0fbee61eeea3404d476c3b488fbe3b695d340e60"
+        },
+        "9": {
+          "blocks": 16,
+          "signed_valuations": [
+            26
+          ],
+          "unsigned_valuations": [
+            9
+          ],
+          "units_mod8_first8": [
+            1,
+            7,
+            5,
+            3,
+            1,
+            7,
+            5,
+            3
+          ],
+          "signed_hash": "fb64980fbf24c5127c4096178f341936b014808301ae5bd5c310daa5258890ad"
+        },
+        "10": {
+          "blocks": 8,
+          "signed_valuations": [
+            29
+          ],
+          "unsigned_valuations": [
+            10
+          ],
+          "units_mod8_first8": [
+            1,
+            7,
+            5,
+            3,
+            1,
+            7,
+            5,
+            3
+          ],
+          "signed_hash": "440b877885825e91d6a5d4958c2024f27607d0901a568158cf32072ee69a0e4d"
+        },
+        "11": {
+          "blocks": 4,
+          "signed_valuations": [
+            32
+          ],
+          "unsigned_valuations": [
+            11
+          ],
+          "units_mod8_first8": [
+            1,
+            7,
+            5,
+            3
+          ],
+          "signed_hash": "f62c8d92a0336929d3139d4b4c4ef7505378563621a147ee62f9456afad78972"
+        },
+        "12": {
+          "blocks": 2,
+          "signed_valuations": [
+            35
+          ],
+          "unsigned_valuations": [
+            12
+          ],
+          "units_mod8_first8": [
+            1,
+            7
+          ],
+          "signed_hash": "2be6ea876cbf7ec23c8ac4eee1af404776a6d7b9b58844837fd4ad0be8dff6ca"
+        }
+      },
+      "adjacent_mod8": [
+        {
+          "s": 1,
+          "ok": true,
+          "pairs": 2048
+        },
+        {
+          "s": 2,
+          "ok": true,
+          "pairs": 1024
+        },
+        {
+          "s": 3,
+          "ok": true,
+          "pairs": 512
+        },
+        {
+          "s": 4,
+          "ok": true,
+          "pairs": 256
+        },
+        {
+          "s": 5,
+          "ok": true,
+          "pairs": 128
+        },
+        {
+          "s": 6,
+          "ok": true,
+          "pairs": 64
+        },
+        {
+          "s": 7,
+          "ok": true,
+          "pairs": 32
+        },
+        {
+          "s": 8,
+          "ok": true,
+          "pairs": 16
+        },
+        {
+          "s": 9,
+          "ok": true,
+          "pairs": 8
+        },
+        {
+          "s": 10,
+          "ok": true,
+          "pairs": 4
+        },
+        {
+          "s": 11,
+          "ok": true,
+          "pairs": 2
+        },
+        {
+          "s": 12,
+          "ok": true,
+          "pairs": 1
+        }
+      ],
+      "origin_pair": [
+        {
+          "r": 1,
+          "v_f": 2,
+          "v_b": 2,
+          "v_b_minus_7f": 6
+        },
+        {
+          "r": 2,
+          "v_f": 5,
+          "v_b": 5,
+          "v_b_minus_7f": 10
+        },
+        {
+          "r": 3,
+          "v_f": 8,
+          "v_b": 8,
+          "v_b_minus_7f": 14
+        },
+        {
+          "r": 4,
+          "v_f": 11,
+          "v_b": 11,
+          "v_b_minus_7f": 18
+        },
+        {
+          "r": 5,
+          "v_f": 14,
+          "v_b": 14,
+          "v_b_minus_7f": 22
+        },
+        {
+          "r": 6,
+          "v_f": 17,
+          "v_b": 17,
+          "v_b_minus_7f": 26
+        },
+        {
+          "r": 7,
+          "v_f": 20,
+          "v_b": 20,
+          "v_b_minus_7f": 30
+        },
+        {
+          "r": 8,
+          "v_f": 23,
+          "v_b": 23,
+          "v_b_minus_7f": 34
+        },
+        {
+          "r": 9,
+          "v_f": 26,
+          "v_b": 26,
+          "v_b_minus_7f": 38
+        },
+        {
+          "r": 10,
+          "v_f": 29,
+          "v_b": 29,
+          "v_b_minus_7f": 42
+        },
+        {
+          "r": 11,
+          "v_f": 32,
+          "v_b": 32,
+          "v_b_minus_7f": 46
+        },
+        {
+          "r": 12,
+          "v_f": 35,
+          "v_b": 35,
+          "v_b_minus_7f": 50
+        }
+      ],
+      "franel_controls": {
+        "Franel3": {
+          "1": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "2": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "3": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "4": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "5": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "Franel4": {
+          "1": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "2": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "3": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "4": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "5": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "conclusion": "v2(B_{a,s})=3s-1 for all aligned blocks tested; h_+/h_- split in P2."
+    },
+    "P02_kernel_split": {
+      "kind": "symmetric/antisymmetric kernel split",
+      "total_hm_examples": [
+        {
+          "n": 0,
+          "sum_hm": "0"
+        },
+        {
+          "n": 1,
+          "sum_hm": "0"
+        },
+        {
+          "n": 2,
+          "sum_hm": "0"
+        },
+        {
+          "n": 3,
+          "sum_hm": "0"
+        },
+        {
+          "n": 4,
+          "sum_hm": "0"
+        },
+        {
+          "n": 5,
+          "sum_hm": "0"
+        },
+        {
+          "n": 6,
+          "sum_hm": "0"
+        },
+        {
+          "n": 7,
+          "sum_hm": "0"
+        }
+      ],
+      "block_count": 252,
+      "blocks_first": [
+        {
+          "s": 1,
+          "a": 0,
+          "sum_hm": "0",
+          "sum_hp": "-4"
+        },
+        {
+          "s": 1,
+          "a": 1,
+          "sum_hm": "0",
+          "sum_hp": "-1372"
+        },
+        {
+          "s": 1,
+          "a": 2,
+          "sum_hm": "0",
+          "sum_hp": "-786004"
+        },
+        {
+          "s": 1,
+          "a": 3,
+          "sum_hm": "0",
+          "sum_hp": "-562846540"
+        },
+        {
+          "s": 1,
+          "a": 4,
+          "sum_hm": "0",
+          "sum_hp": "-452322936580"
+        },
+        {
+          "s": 1,
+          "a": 5,
+          "sum_hm": "0",
+          "sum_hp": "-390018647385052"
+        },
+        {
+          "s": 1,
+          "a": 6,
+          "sum_hm": "0",
+          "sum_hp": "-352640207385418996"
+        },
+        {
+          "s": 1,
+          "a": 7,
+          "sum_hm": "0",
+          "sum_hp": "-329922932524683907372"
+        },
+        {
+          "s": 1,
+          "a": 8,
+          "sum_hm": "0",
+          "sum_hp": "-316724816317765149058660"
+        },
+        {
+          "s": 1,
+          "a": 9,
+          "sum_hm": "0",
+          "sum_hp": "-310236117001966478842337020"
+        },
+        {
+          "s": 1,
+          "a": 10,
+          "sum_hm": "0",
+          "sum_hp": "-308830071612696961881476208244"
+        },
+        {
+          "s": 1,
+          "a": 11,
+          "sum_hm": "0",
+          "sum_hp": "-311533181679914519668644855097132"
+        }
+      ],
+      "conclusion": "h_- has zero total for every n and zero alternating dyadic block sum; h_+ carries the law."
+    },
+    "P03_initial_scan": {
+      "kind": "initial-value phase scan",
+      "range": "A_1 odd, 1..127; r=2..6",
+      "special_A1_5": {
+        "a1": 5,
+        "vP": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "vPO": [
+          5,
+          8,
+          11,
+          14,
+          17
+        ],
+        "paired": true
+      },
+      "patterns": [
+        {
+          "vP": [
+            -2,
+            -4,
+            -6,
+            -8,
+            -10
+          ],
+          "paired": true,
+          "count": 32,
+          "examples": [
+            3,
+            7,
+            11,
+            15,
+            19,
+            23
+          ]
+        },
+        {
+          "vP": [
+            -1,
+            -3,
+            -5,
+            -7,
+            -9
+          ],
+          "paired": true,
+          "count": 16,
+          "examples": [
+            1,
+            9,
+            17,
+            25,
+            33,
+            41
+          ]
+        },
+        {
+          "vP": [
+            0,
+            -2,
+            -4,
+            -6,
+            -8
+          ],
+          "paired": true,
+          "count": 8,
+          "examples": [
+            13,
+            29,
+            45,
+            61,
+            77,
+            93
+          ]
+        },
+        {
+          "vP": [
+            2,
+            -1,
+            -3,
+            -5,
+            -7
+          ],
+          "paired": true,
+          "count": 2,
+          "examples": [
+            21,
+            85
+          ]
+        },
+        {
+          "vP": [
+            1,
+            0,
+            -2,
+            -4,
+            -6
+          ],
+          "paired": true,
+          "count": 2,
+          "examples": [
+            37,
+            101
+          ]
+        },
+        {
+          "vP": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "paired": true,
+          "count": 1,
+          "examples": [
+            5
+          ]
+        },
+        {
+          "vP": [
+            3,
+            -1,
+            -3,
+            -5,
+            -7
+          ],
+          "paired": false,
+          "count": 1,
+          "examples": [
+            53
+          ]
+        },
+        {
+          "vP": [
+            1,
+            1,
+            -1,
+            -3,
+            -5
+          ],
+          "paired": true,
+          "count": 1,
+          "examples": [
+            69
+          ]
+        },
+        {
+          "vP": [
+            4,
+            -1,
+            -3,
+            -5,
+            -7
+          ],
+          "paired": false,
+          "count": 1,
+          "examples": [
+            117
+          ]
+        }
+      ],
+      "conclusion": "A_1=5 is a special locus; generic A_1 gives different slopes/pairing."
+    },
+    "P04_mahler": {
+      "kind": "Mahler coefficients, finite",
+      "max_j": 64,
+      "v2": [
+        null,
+        0,
+        1,
+        2,
+        4,
+        3,
+        4,
+        3,
+        5,
+        3,
+        4,
+        5,
+        8,
+        3,
+        4,
+        4,
+        9,
+        3,
+        4,
+        5,
+        7,
+        10,
+        8,
+        6,
+        8,
+        3,
+        4,
+        8,
+        8,
+        4,
+        5,
+        5,
+        12,
+        3,
+        4,
+        5,
+        7,
+        8,
+        8,
+        6,
+        8,
+        7,
+        8,
+        8,
+        11,
+        6,
+        7,
+        7,
+        13,
+        3,
+        4,
+        5,
+        7,
+        5,
+        6,
+        7,
+        8,
+        4,
+        5,
+        8,
+        9,
+        5,
+        6,
+        6,
+        15
+      ],
+      "first_33": [
+        "0",
+        "1",
+        "-6",
+        "84",
+        "-1680",
+        "39240",
+        "-999216",
+        "26899896",
+        "-752939424",
+        "21691531800",
+        "-638947312080",
+        "19155738105504",
+        "-582589712312064",
+        "17930566188602136",
+        "-557417298916695600",
+        "17477836958370383280",
+        "-552090876791399769600",
+        "17552554240486710112920",
+        "-561230779055361080132880",
+        "18035797271670646889705760",
+        "-582220991624502673258704000",
+        "18871245006653707759148682240",
+        "-613908537372574364351347741440",
+        "20037839701502937608939739447360",
+        "-656017183336437550904028055430400",
+        "21537022653395325526399516411349400",
+        "-708866976237292726304243590670571216",
+        "23386558487226619215505183292316554496",
+        "-773239282115579338303440016541558041344",
+        "25617651859934670852357168865735497232080",
+        "-850318182195066131052863569523000433467040",
+        "28273881090316350078682569452585051047249056",
+        "-941676306802581185218086539197807355118759936"
+      ],
+      "conclusion": "No simple slope-3 line in the first 64 Mahler coefficients; fractal at j=2^k."
+    },
+    "P05_twokernel": {
+      "kind": "2-kernel rank over F_2",
+      "K": 4,
+      "rows": [
+        {
+          "E": 5,
+          "subseq": 63,
+          "rank": 18
+        },
+        {
+          "E": 6,
+          "subseq": 127,
+          "rank": 22
+        },
+        {
+          "E": 7,
+          "subseq": 255,
+          "rank": 26
+        },
+        {
+          "E": 8,
+          "subseq": 511,
+          "rank": 30
+        }
+      ],
+      "conclusion": "Rank grows with E; no evidence for a small 2-automatic transducer."
+    },
+    "P06_lattice": {
+      "kind": "state lattice Smith normal form",
+      "rows": [
+        {
+          "r": 3,
+          "states": 8,
+          "snf": [
+            1,
+            1,
+            1,
+            10
+          ],
+          "rank": 4
+        },
+        {
+          "r": 4,
+          "states": 16,
+          "snf": [
+            1,
+            1,
+            1,
+            10
+          ],
+          "rank": 4
+        },
+        {
+          "r": 5,
+          "states": 32,
+          "snf": [
+            1,
+            1,
+            1,
+            10
+          ],
+          "rank": 4
+        },
+        {
+          "r": 6,
+          "states": 64,
+          "snf": [
+            1,
+            1,
+            1,
+            10
+          ],
+          "rank": 4
+        }
+      ],
+      "conclusion": "Orbit lattice index is 10 (2*5), not 2^(3r-1); growth is in the vector, not the lattice index."
+    },
+    "P07_transfer": {
+      "kind": "normalized 2D readout transfer",
+      "rows": [
+        {
+          "r": 1,
+          "D_mod128": [
+            [
+              83,
+              110
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "r": 2,
+          "D_mod128": [
+            [
+              35,
+              94
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "r": 3,
+          "D_mod128": [
+            [
+              3,
+              126
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "r": 4,
+          "D_mod128": [
+            [
+              3,
+              126
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        }
+      ],
+      "candidate_C": [
+        [
+          6,
+          16
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "conclusion": "Exact transfer drifts; mod-128 shadow is not the candidate C. The 2D readout pair is not a closed state."
+    },
+    "P08_jet": {
+      "kind": "kernel-position derivative source",
+      "range": "n=1..255",
+      "v2_histogram": {
+        "2": 255
+      },
+      "partials": [
+        {
+          "r": 1,
+          "v2_prefix": 2,
+          "v2_alternating": 2
+        },
+        {
+          "r": 2,
+          "v2_prefix": 2,
+          "v2_alternating": 2
+        },
+        {
+          "r": 3,
+          "v2_prefix": 2,
+          "v2_alternating": 2
+        },
+        {
+          "r": 4,
+          "v2_prefix": 2,
+          "v2_alternating": 2
+        },
+        {
+          "r": 5,
+          "v2_prefix": 2,
+          "v2_alternating": 2
+        },
+        {
+          "r": 6,
+          "v2_prefix": 2,
+          "v2_alternating": 2
+        },
+        {
+          "r": 7,
+          "v2_prefix": 2,
+          "v2_alternating": 2
+        },
+        {
+          "r": 8,
+          "v2_prefix": 2,
+          "v2_alternating": 2
+        }
+      ],
+      "conclusion": "R_n'(1) has constant v2=2; naive jet channel is 2-adically flat and needs cumulative amplification."
+    },
+    "P09_spectrum": {
+      "kind": "full block 2-adic Newton polygon",
+      "rows": [
+        {
+          "r": 1,
+          "degree": 4,
+          "coeff_v2": [
+            0,
+            -3,
+            -3,
+            -3,
+            -3
+          ],
+          "det_v2": -3
+        },
+        {
+          "r": 2,
+          "degree": 4,
+          "coeff_v2": [
+            0,
+            -3,
+            -3,
+            -3,
+            -3
+          ],
+          "det_v2": -3
+        },
+        {
+          "r": 3,
+          "degree": 4,
+          "coeff_v2": [
+            0,
+            -3,
+            -3,
+            -3,
+            -3
+          ],
+          "det_v2": -3
+        },
+        {
+          "r": 4,
+          "degree": 4,
+          "coeff_v2": [
+            0,
+            -3,
+            -3,
+            -3,
+            -3
+          ],
+          "det_v2": -3
+        },
+        {
+          "r": 5,
+          "degree": 4,
+          "coeff_v2": [
+            0,
+            -3,
+            -3,
+            -3,
+            -3
+          ],
+          "det_v2": -3
+        }
+      ],
+      "conclusion": "One root valuation -3, three units; determinant 1/8. No simple expansive 8-eigenvalue."
+    }
+  },
+  "limits": [
+    "Finite ranges only; no all-r proof of G1/G2.",
+    "P04/P05/P09 are exploratory; P01/P02/P03/P06/P07/P08 have finite certificates.",
+    "No originality or literature check.",
+    "No claim of intrinsic chirality or CM identification."
+  ],
+  "producer_sha256": "b5f1c45c30b2634cf11c49d019a2a4e364472cbede1ab9c1b7e298c1153c23f7"
+}

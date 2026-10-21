@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "independent_methods": [
+    "binomial k-axis kernel",
+    "polynomial product differentiation",
+    "integer factorial quotient",
+    "digit-matrix weighted sums"
+  ],
+  "certificate_sha256": "cb6e1c8872f7900a7077495feef6fc79e1c46f5aa0c80bd82a48eb7d82e87ff3",
+  "generator_sha256": "0eeded19c075ac5679a4ca629509973e243db4782169949be70c5ab8ca9c6de4",
+  "verifier_sha256": "1e44b314ca7f42720d4a7247ca5552641e0ea017448eb170b731b71c6f4b7979",
+  "source_binomial_terms": 2048,
+  "literal_comb_checks": 60,
+  "tests_run": 2,
+  "mutation_cases": 7,
+  "scope": "fixed mod-p^2 D tower; no growing precision or G1/G2 certification"
+}

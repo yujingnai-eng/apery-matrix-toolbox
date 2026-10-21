@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "cases": 5130,
+  "by_chi": {
+    "1": {
+      "0": 2433
+    },
+    "-1": {
+      "2": 2592,
+      "4": 6,
+      "3": 60,
+      "5": 1
+    },
+    "0": {
+      "1": 38
+    }
+  },
+  "exceptions": 0,
+  "hashes": {
+    "beukers_all_t_20261019.py": "fbf1601de44b55ba19b5279965f8bf6d06dccaf0fdedc2fa22ff103fd2cdd81a",
+    "beukers_all_t_20261019.json": "c337fc825f1eb43afc3abdc4d3110db65af95394a54273b08d13a664562ac7d6",
+    "verify_beukers_all_t_20261019.py": "a46f27aee0b4d0a58ead598500d6bb8aed5d2e079f694a9a3950a875f68eab8e"
+  },
+  "limits": [
+    "Same finite primes and registry points; no all-t/all-p proof."
+  ]
+}

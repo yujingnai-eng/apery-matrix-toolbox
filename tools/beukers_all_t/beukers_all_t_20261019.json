@@ -1,0 +1,939 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-19",
+  "status": "finite consistency scan; not a proof",
+  "scope": {
+    "families": 13,
+    "points": 118,
+    "primes": [
+      5,
+      199
+    ],
+    "prime_count": 44,
+    "cases": 5130,
+    "skipped": {
+      "non_p_integral_t": 30,
+      "empty_family": 2,
+      "bad_reduction": 32
+    }
+  },
+  "by_chi": {
+    "-1": {
+      "2": 2592,
+      "3": 60,
+      "4": 6,
+      "5": 1
+    },
+    "0": {
+      "1": 38
+    },
+    "1": {
+      "0": 2433
+    }
+  },
+  "by_family": {
+    "9.1": {
+      "-1": {
+        "2": 184
+      },
+      "0": {
+        "1": 2
+      },
+      "1": {
+        "0": 166
+      }
+    },
+    "9.10": {
+      "-1": {
+        "2": 116,
+        "3": 24,
+        "4": 2
+      },
+      "0": {
+        "1": 2
+      },
+      "1": {
+        "0": 120
+      }
+    },
+    "9.11": {
+      "-1": {
+        "2": 199,
+        "3": 1,
+        "4": 1
+      },
+      "0": {
+        "1": 4
+      },
+      "1": {
+        "0": 180
+      }
+    },
+    "9.12": {
+      "-1": {
+        "2": 304,
+        "3": 5
+      },
+      "0": {
+        "1": 2
+      },
+      "1": {
+        "0": 289
+      }
+    },
+    "9.13": {
+      "-1": {
+        "2": 235,
+        "3": 9,
+        "5": 1
+      },
+      "0": {
+        "1": 7
+      },
+      "1": {
+        "0": 231
+      }
+    },
+    "9.14": {
+      "-1": {
+        "2": 200
+      },
+      "0": {
+        "1": 2
+      },
+      "1": {
+        "0": 181
+      }
+    },
+    "9.15": {
+      "-1": {
+        "2": 318,
+        "3": 7
+      },
+      "0": {
+        "1": 5
+      },
+      "1": {
+        "0": 318
+      }
+    },
+    "9.2": {
+      "-1": {
+        "2": 334,
+        "3": 4,
+        "4": 1
+      },
+      "0": {
+        "1": 6
+      },
+      "1": {
+        "0": 309
+      }
+    },
+    "9.3": {
+      "-1": {
+        "2": 245,
+        "3": 4,
+        "4": 1
+      },
+      "0": {
+        "1": 4
+      },
+      "1": {
+        "0": 227
+      }
+    },
+    "9.5": {
+      "-1": {
+        "2": 47,
+        "3": 1
+      },
+      "1": {
+        "0": 40
+      }
+    },
+    "9.7": {
+      "-1": {
+        "2": 183,
+        "3": 1
+      },
+      "0": {
+        "1": 2
+      },
+      "1": {
+        "0": 166
+      }
+    },
+    "9.8": {
+      "-1": {
+        "2": 137,
+        "3": 2,
+        "4": 1
+      },
+      "1": {
+        "0": 124
+      }
+    },
+    "9.9": {
+      "-1": {
+        "2": 90,
+        "3": 2
+      },
+      "0": {
+        "1": 2
+      },
+      "1": {
+        "0": 82
+      }
+    }
+  },
+  "exceptions": [],
+  "exception_count": 0,
+  "higher_inert": [
+    {
+      "section": "9.2",
+      "family": "3F2(1/4,1/2,3/4)",
+      "point": 8,
+      "t": "1/81",
+      "d": 7,
+      "delta": -7,
+      "p": 5,
+      "chi": -1,
+      "v": 4
+    },
+    {
+      "section": "9.2",
+      "family": "3F2(1/4,1/2,3/4)",
+      "point": 14,
+      "t": "-1/199148544",
+      "d": 37,
+      "delta": -148,
+      "p": 5,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.2",
+      "family": "3F2(1/4,1/2,3/4)",
+      "point": 15,
+      "t": "1/24591257856",
+      "d": 58,
+      "delta": -232,
+      "p": 13,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.2",
+      "family": "3F2(1/4,1/2,3/4)",
+      "point": 15,
+      "t": "1/24591257856",
+      "d": 58,
+      "delta": -232,
+      "p": 23,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.2",
+      "family": "3F2(1/4,1/2,3/4)",
+      "point": 11,
+      "t": "1/614656",
+      "d": 2,
+      "delta": -8,
+      "p": 71,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.3",
+      "family": "3F2(1/3,1/2,2/3)",
+      "point": 2,
+      "t": "-1/27",
+      "d": 15,
+      "delta": -15,
+      "p": 7,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.3",
+      "family": "3F2(1/3,1/2,2/3)",
+      "point": 10,
+      "t": "-1/110592",
+      "d": 123,
+      "delta": -123,
+      "p": 7,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.3",
+      "family": "3F2(1/3,1/2,2/3)",
+      "point": 8,
+      "t": "-1/8640",
+      "d": 3,
+      "delta": -3,
+      "p": 11,
+      "chi": -1,
+      "v": 4
+    },
+    {
+      "section": "9.3",
+      "family": "3F2(1/3,1/2,2/3)",
+      "point": 10,
+      "t": "-1/110592",
+      "d": 123,
+      "delta": -123,
+      "p": 59,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.3",
+      "family": "3F2(1/3,1/2,2/3)",
+      "point": 5,
+      "t": "-1/1728",
+      "d": 51,
+      "delta": -51,
+      "p": 83,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.5",
+      "family": "Apery zeta(3) / Almkvist gamma",
+      "point": 2,
+      "t": "-1",
+      "d": 3,
+      "delta": -3,
+      "p": 5,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.7",
+      "family": "Domb / Almkvist alpha (twisted)",
+      "point": 8,
+      "t": "-1/64",
+      "d": 15,
+      "delta": -15,
+      "p": 13,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.8",
+      "family": "Almkvist-Zudilin delta (twisted)",
+      "point": 6,
+      "t": "1/81",
+      "d": 2,
+      "delta": -8,
+      "p": 13,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.8",
+      "family": "Almkvist-Zudilin delta (twisted)",
+      "point": 4,
+      "t": "1/9",
+      "d": 6,
+      "delta": -24,
+      "p": 23,
+      "chi": -1,
+      "v": 4
+    },
+    {
+      "section": "9.8",
+      "family": "Almkvist-Zudilin delta (twisted)",
+      "point": 1,
+      "t": "1",
+      "d": 2,
+      "delta": -8,
+      "p": 47,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.9",
+      "family": "Almkvist epsilon",
+      "point": 1,
+      "t": "1",
+      "d": 7,
+      "delta": -7,
+      "p": 5,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.9",
+      "family": "Almkvist epsilon",
+      "point": 2,
+      "t": "-1/4",
+      "d": 2,
+      "delta": -8,
+      "p": 5,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 5,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 1,
+      "t": "1",
+      "d": 11,
+      "delta": -11,
+      "p": 7,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 11,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 5,
+      "t": "1/27",
+      "d": 2,
+      "delta": -8,
+      "p": 13,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 6,
+      "t": "-1/27",
+      "d": 11,
+      "delta": -11,
+      "p": 13,
+      "chi": -1,
+      "v": 4
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 17,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 23,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 29,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 41,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 47,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 53,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 59,
+      "chi": -1,
+      "v": 4
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 71,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 83,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 89,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 101,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 107,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 113,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 131,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 137,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 149,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 167,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 173,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 179,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 191,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.10",
+      "family": "Almkvist zeta",
+      "point": 3,
+      "t": "-1/3",
+      "d": 3,
+      "delta": -3,
+      "p": 197,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.11",
+      "family": "Cooper s7",
+      "point": 1,
+      "t": "-1",
+      "d": 7,
+      "delta": -7,
+      "p": 5,
+      "chi": -1,
+      "v": 4
+    },
+    {
+      "section": "9.11",
+      "family": "Cooper s7",
+      "point": 9,
+      "t": "-1/10648",
+      "d": 427,
+      "delta": -427,
+      "p": 19,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.12",
+      "family": "Yang-Zudilin / Cooper s10 / Franel-4",
+      "point": 1,
+      "t": "1",
+      "d": 15,
+      "delta": -15,
+      "p": 7,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.12",
+      "family": "Yang-Zudilin / Cooper s10 / Franel-4",
+      "point": 10,
+      "t": "-1/64",
+      "d": 5,
+      "delta": -20,
+      "p": 17,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.12",
+      "family": "Yang-Zudilin / Cooper s10 / Franel-4",
+      "point": 13,
+      "t": "1/1296",
+      "d": 130,
+      "delta": -520,
+      "p": 43,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.12",
+      "family": "Yang-Zudilin / Cooper s10 / Franel-4",
+      "point": 5,
+      "t": "-1/9",
+      "d": 15,
+      "delta": -15,
+      "p": 67,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.12",
+      "family": "Yang-Zudilin / Cooper s10 / Franel-4",
+      "point": 9,
+      "t": "1/36",
+      "d": 30,
+      "delta": -120,
+      "p": 173,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.13",
+      "family": "Cooper s18",
+      "point": 3,
+      "t": "-1/9",
+      "d": 7,
+      "delta": -7,
+      "p": 5,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.13",
+      "family": "Cooper s18",
+      "point": 8,
+      "t": "-1/36",
+      "d": 13,
+      "delta": -52,
+      "p": 5,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.13",
+      "family": "Cooper s18",
+      "point": 11,
+      "t": "-1/576",
+      "d": 37,
+      "delta": -148,
+      "p": 5,
+      "chi": -1,
+      "v": 5
+    },
+    {
+      "section": "9.13",
+      "family": "Cooper s18",
+      "point": 5,
+      "t": "1/16",
+      "d": 2,
+      "delta": -8,
+      "p": 7,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.13",
+      "family": "Cooper s18",
+      "point": 10,
+      "t": "-1/180",
+      "d": 1,
+      "delta": -4,
+      "p": 11,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.13",
+      "family": "Cooper s18",
+      "point": 3,
+      "t": "-1/9",
+      "d": 7,
+      "delta": -7,
+      "p": 13,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.13",
+      "family": "Cooper s18",
+      "point": 11,
+      "t": "-1/576",
+      "d": 37,
+      "delta": -148,
+      "p": 13,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.13",
+      "family": "Cooper s18",
+      "point": 10,
+      "t": "-1/180",
+      "d": 1,
+      "delta": -4,
+      "p": 19,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.13",
+      "family": "Cooper s18",
+      "point": 10,
+      "t": "-1/180",
+      "d": 1,
+      "delta": -4,
+      "p": 47,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.13",
+      "family": "Cooper s18",
+      "point": 2,
+      "t": "1/9",
+      "d": 7,
+      "delta": -7,
+      "p": 59,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.15",
+      "family": "Franel-3 Hadamard central",
+      "point": 13,
+      "t": "-1/2704",
+      "d": 57,
+      "delta": -228,
+      "p": 5,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.15",
+      "family": "Franel-3 Hadamard central",
+      "point": 12,
+      "t": "1/896",
+      "d": 42,
+      "delta": -168,
+      "p": 19,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.15",
+      "family": "Franel-3 Hadamard central",
+      "point": 9,
+      "t": "-1/49",
+      "d": 15,
+      "delta": -15,
+      "p": 29,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.15",
+      "family": "Franel-3 Hadamard central",
+      "point": 15,
+      "t": "1/39200",
+      "d": 102,
+      "delta": -408,
+      "p": 29,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.15",
+      "family": "Franel-3 Hadamard central",
+      "point": 9,
+      "t": "-1/49",
+      "d": 15,
+      "delta": -15,
+      "p": 41,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.15",
+      "family": "Franel-3 Hadamard central",
+      "point": 11,
+      "t": "-1/400",
+      "d": 33,
+      "delta": -132,
+      "p": 73,
+      "chi": -1,
+      "v": 3
+    },
+    {
+      "section": "9.15",
+      "family": "Franel-3 Hadamard central",
+      "point": 4,
+      "t": "1/5",
+      "d": 15,
+      "delta": -15,
+      "p": 131,
+      "chi": -1,
+      "v": 3
+    }
+  ],
+  "limits": [
+    "Finite primes 5..200 and the 118 listed Appendix C points only.",
+    "H_p is the first truncated block, not the whole depth tower.",
+    "The Hasse/Deuring identification is a proposed bridge, not proved here.",
+    "Higher-order inert valuations are preserved as exceptions.",
+    "No originality or literature check."
+  ],
+  "producer_sha256": "fbf1601de44b55ba19b5279965f8bf6d06dccaf0fdedc2fa22ff103fd2cdd81a"
+}

@@ -1,0 +1,2 @@
+# The verifiers use exact integer/rational arithmetic and SymPy.
+sympy==1.14.0

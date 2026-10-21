@@ -1,0 +1,45 @@
+{
+  "status": "pass within declared scope",
+  "covered": [
+    "P01(s<=6,63 blocks)",
+    "P02(n<=32,s<=4)",
+    "P03(A1=5)",
+    "P06(r=3,4)",
+    "P07(r<=4)",
+    "P08(n<=32)"
+  ],
+  "not_independently_certified": [
+    "P04 Mahler",
+    "P05 2-kernel",
+    "P09 spectrum"
+  ],
+  "check_counts": {
+    "producer_hash": 1,
+    "P01_signed_block": 63,
+    "P01_unsigned_block": 63,
+    "P01_origin_f": 6,
+    "P01_origin_b": 6,
+    "P01_origin_congruence": 6,
+    "P01_franel_not_uniform": 8,
+    "P02_total_hm_zero": 33,
+    "P02_block_hm_zero": 60,
+    "P02_block_hp_matches": 60,
+    "P03_special_vP": 1,
+    "P03_special_vPO": 1,
+    "P03_special_pairing": 1,
+    "P06_lattice_index_10": 2,
+    "P07_transfer_shadow": 4,
+    "P08_jet_v2_flat": 32
+  },
+  "limits": [
+    "Finite ranges only; no all-r proof of G1/G2.",
+    "P04/P05/P09 are exploratory and not certified here.",
+    "Producer ranges are larger than verifier ranges; see the report boundary section.",
+    "No originality or literature check."
+  ],
+  "hashes": {
+    "deep_probes_20261019.py": "b5f1c45c30b2634cf11c49d019a2a4e364472cbede1ab9c1b7e298c1153c23f7",
+    "deep_probes_20261019.json": "52535360e7cc1d0ec70ff95a892453bf5202292fddf15ea1bee5c77848839368",
+    "verify_deep_probes_20261019.py": "168a08e34151731f57166b5bdb2bc8ccdfdb38faacca4c07c189261348718d5a"
+  }
+}

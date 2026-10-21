@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "description": "Public Apéry matrix toolbox. Exact verifiers with declared finite scope; G1/G2 are not proved.",
+  "tools": [
+    {
+      "id": "mirror",
+      "description": "Ten mirror experiments; exact Q(t) covariance plus finite controls.",
+      "cwd": "tools/mirror",
+      "command": ["{python}", "verify_mirror_experiments_20261019.py"],
+      "timeout": 300,
+      "output": "verify_mirror_experiments_20261019.json",
+      "status": "pass within declared scope",
+      "counts": {
+        "check_counts.E01_independent_fundamental_blocks": 66,
+        "check_counts.E01_moving_mirror": 66,
+        "check_counts.E01_negative_control": 66
+      }
+    },
+    {
+      "id": "deep_probes",
+      "description": "Nine deep probes: local dyadic blocks, kernel splitting, initial phase diagram.",
+      "cwd": "tools/deep_probes",
+      "command": ["{python}", "verify_deep_probes_20261019.py"],
+      "timeout": 300,
+      "output": "verify_deep_probes_20261019.json",
+      "status": "pass within declared scope",
+      "counts": {
+        "check_counts.P01_signed_block": 63,
+        "check_counts.P02_block_hm_zero": 60
+      }
+    },
+    {
+      "id": "beukers_all_t",
+      "description": "All 118 Beukers Appendix C points and p<=199; 5,130 eligible cases.",
+      "cwd": "tools/beukers_all_t",
+      "command": ["{python}", "verify_beukers_all_t_20261019.py"],
+      "timeout": 600,
+      "output": "verify_beukers_all_t_20261019.json",
+      "status": "pass",
+      "counts": {
+        "cases": 5130,
+        "exceptions": 0
+      }
+    },
+    {
+      "id": "wilson_gessel",
+      "description": "Unit-factorial Wilson-Gessel fixed p^2 four-state matrix.",
+      "cwd": "tools/wilson_gessel",
+      "command": ["{python}", "test_wilson_lift2.py"],
+      "timeout": 300,
+      "output": "wilson_lift2_verification.json",
+      "status": "pass",
+      "counts": {
+        "tests_run": 2,
+        "mutation_cases": 7
+      }
+    },
+    {
+      "id": "borel",
+      "description": "Borel first block: exact four-state differential transport.",
+      "cwd": "tools/borel",
+      "command": ["{python}", "test_borel_first_block.py"],
+      "timeout": 300,
+      "output": "borel_first_block_verification.json",
+      "status": "pass",
+      "counts": {
+        "tests_run": 2,
+        "mutation_cases": 8
+      }
+    }
+  ]
+}

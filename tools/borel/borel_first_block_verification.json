@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "source": "independent k-axis binomial kernel, no generator imports",
+  "binomial_indices": 2048,
+  "literal_comb_crosschecks": 60,
+  "certificate_sha256": "13273760b7f9e491802503bbbc586db68e7d5e4043a55e0737b4f769d0c0fc04",
+  "generator_sha256": "8a2a7ffece5a45acd15ca9f87b33cf1128d0c9d9ea90c34f3ac00738ff3df7b8",
+  "verifier_sha256": "09db8ae79e878004ba77710fe7073b90f79afea09a36c6d3c161052ec830c04e",
+  "tests_run": 2,
+  "mutation_cases": 8,
+  "limits": "Finite checks; universal statements require the separate algebraic derivations. No G1/G2 claim."
+}

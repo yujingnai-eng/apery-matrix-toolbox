@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this toolbox, please cite it and the relevant papers."
+title: "Apéry Matrix Toolbox"
+abstract: "Exact matrix-transport and independent-verification tools for Apéry supercongruences. G1 and G2 remain open."
+authors:
+  - name: "Apéry Matrix Toolbox contributors"
+version: 0.1.0
+date-released: "2026-10-21"
+license: MIT
+repository-code: "https://github.com/yujingnai-eng/apery-matrix-toolbox"
+keywords:
+  - Apery numbers
+  - supercongruences
+  - p-adic methods
+  - CM elliptic curves
+  - matrix transport
